@@ -8,16 +8,33 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-footer{
-    padding-top: 20px;
-    text-align: left;
-    padding-bottom: 10px
+.Footer {
+    padding-top: 1rem;
+    /* text-align: left; */
+    /* padding-bottom: 10px; */
+    background-color: #000066; 
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
 }
 
 .Header {
 display: flex;
 flex-direction: inline;
 justify-content: space-between;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    background-color:rgb (255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1rem
 }
 
 .header-box {
@@ -32,15 +49,10 @@ flex-direction: row;
 justify-content: space-around
 }
 
-.header-container {
-    position: fixed;
-    top: 0;
-    background-color:rgb (255, 255, 255);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
+.Links {
+    margin-left: 3rem;
+}
 
 .Navbar {
 margin-right: 4rem;
@@ -55,9 +67,10 @@ padding: 30rem;
 
 h1 {
 font-family: Arial, Helvetica, sans-serif;
-font-size: 54px;
-font-weight: lighter;
-/* letter-spacing: 1rem; */
+color: white;
+font-size: 56px;
+font-weight: 200;
+letter-spacing: 1rem;
 }
 
 h2 {
@@ -73,10 +86,14 @@ font-weight: bold;
 }
 
 h4 {
-font: normal 23px Arial, Helvetica, Geneva, sans-serif;
+font: normal 21px Arial, Helvetica, Geneva, sans-serif;
+color: #000066;
 }
 
-
+h5 {
+    font: normal 19px Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 200;
+}
 p {
 font: 16px Arial, Verdana, Helvetica, sans-serif;
 }

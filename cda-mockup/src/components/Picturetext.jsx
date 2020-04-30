@@ -6,12 +6,10 @@ return (
 
 <div className = "pictureText-container">
 
-<div className="pictureText-Text"
-style={{color:"white", letterSpacing:"3px", textAlign:"center"}}>
+<div className="pictureText-Text">
 <h1>CDA Interview Guide</h1>
 
-<hr 
-style={{color:"white", textAlign:"center"}}/>
+<hr />
 </div>
 
 

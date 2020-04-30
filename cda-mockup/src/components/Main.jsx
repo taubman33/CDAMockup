@@ -1,19 +1,18 @@
 import React from 'react';
+import { Route } from 'react-router-dom'
 import Navbar from './Navbar'
-import Picturetext from './Picturetext'
-import TextBlock from './TextBlock'
-
+import Wrapper from './Wrapper'
+import Contact from './Contact'
 
 export default function Main () {
 return (
 <div className="Main"
 style={{marginTop:"-2rem"}}>
 
-<Picturetext />
 
+<Route exact path="/"component={Wrapper}/>
 
-<TextBlock />
-
+<Route exact path="/Contact"component={Contact}/>
 </div>
 
 

@@ -8,17 +8,19 @@ return (
 <div className="header-container"
 style={{backgroundColor:"white"}}>
 
-<div className="Header">
-<img src={Logo}
-style={{width:"13%"}} />
+        <div className="header-box">
+                <div className="Header">
+                <img src={Logo}
+                     style={{width:"13%"}} />
+ 
+                        <div className="Navbar"
+                        style={{marginLeft:"0rem"}}>
+                        <Navbar />
+                        </div>
 
-<div className="Navbar"
-style={{marginLeft:"0rem"}}>
-<Navbar />
-</div>
 
-
-</div>
+                </div>
+        </div>
 </div>
 
 

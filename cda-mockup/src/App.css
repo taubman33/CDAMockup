@@ -1,0 +1,94 @@
+a {
+color: orange;
+text-decoration: none;
+}
+
+body {
+    font: normal 14px/22px Arial, Helvetica, Geneva, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 10px
+}
+
+.Header {
+display: flex;
+flex-direction: inline;
+justify-content: space-between;
+}
+
+.header-box {
+    margin-top: 1em;
+    width: 90%
+}
+
+
+.link-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    background-color:rgb (255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.Navbar {
+margin-right: 4rem;
+
+}
+.pictureText-container {
+background-image: url('./components/assets/cda-interview-guide.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30rem;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 54px;
+font-weight: lighter;
+/* letter-spacing: 1rem; */
+}
+
+h2 {
+font: 20px Arial, Verdana, Helvetica, sans-serif;
+color: #000066;
+font-weight: bold;
+}
+
+
+h3 {    
+font: 18px Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+h4 {
+font: normal 23px Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+p {
+font: 16px Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+ul {
+
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+}

@@ -5,8 +5,7 @@ import Navbar from './Navbar'
 export default function Header () {
 return (
 
-<div className="header-container"
-style={{backgroundColor:"white"}}>
+<div className="header-container">
 
         <div className="header-box">
                 <div className="Header">

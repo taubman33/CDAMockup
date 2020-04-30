@@ -83,9 +83,9 @@ Notice how SI questions are typically future-oriented, as opposed to PBDI questi
 <br /> <br />
 4. Judgment and analysis: does the applicant have the capability to make sound judgments? Do they gather all the facts before making a decision?
 <br /> <br />
-5. self-control : Does the applicant remain calm and in control in difficult situations?
+5. Self-control : Does the applicant remain calm and in control in difficult situations?
 <br /> <br />
-6. sensitivity to others : Does the applicant show empathy towards others? Do they take the feelings of others into consideration?
+6. Sensitivity to others : Does the applicant show empathy towards others? Do they take the feelings of others into consideration?
 <br /> <br />
 7. Tact and diplomacy : Does the applicant show sensitivity in dealing with difficult issues? Does the applicant possess the necessary skills to deal with others without causing negative feelings?
 <br /> <br />

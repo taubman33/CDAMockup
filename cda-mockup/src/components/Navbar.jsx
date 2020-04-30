@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Hamburger from './Hamburger'
+
 
 export default function Navbar () {
 return (
@@ -26,6 +28,8 @@ return (
         <Link to='/Contact' className='nav-link'><h4>Contact</h4></Link>
         </div>
 
+
+    {/* <Hamburger /> */}
 
 
 

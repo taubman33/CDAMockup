@@ -12,65 +12,61 @@ export default function Contact () {
 
 
 
-       <div className="contact-text">
-       <h2>BeMo Academic Consulting Inc.</h2>
+       <div className="contact-text" style={{marginLeft:"3rem"}}>
+       
+        <h2>BeMo Academic Consulting Inc.</h2>
 
-       <br />
-       Toll Free: 1-855-900-BeMo (2366)
+       <h6><b><u>Toll Free:</u></b> 1-855-900-BeMo (2366)
+      
        <br />
 
-       Email: info@bemoacademicconsulting.com
+       
+       <b><u>Email: </u></b>info@bemoacademicconsulting.com
        <br />
+       </h6> 
        </div>
-       
-       <div className = "contact-page">
 
-          <div className="title-container">          
-            <h1> Contact Me</h1>
+
+    <div className="contact-form">
+       <form action="./contact-us_files/mailer.php" method="post" enctype="multipart/form-data">
+	   <div class="message-text"><span style={{fontSize:"17px", fontWeight:"bold"}}>BeMo Academic Consulting Inc. </span>
+       <br />
+       <span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Toll Free</u></span><span style={{fonSize:"13px"}}>: 
+       </span><span style={{fontSize:"14px"}}>1-855-900-BeMo (2366)</span><span style={{fontSize:"13px"}}><br/>
+       </span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Email</u></span><span style={{fontSize:"13px"}}>: </span>
+       <span style={{fontSize:"14px"}}>info@bemoacademicconsulting.com</span></span></div>
+		<label>Name:</label> *
+        <br />
+		<input class="form-input-field" type="text" value="" name="form[element0]" size="40"/><br/><br/>
+
+		<label>Email Address:</label> *<br/>
+		<input class="form-input-field" type="text" value="" name="form[element1]" size="40"/><br/><br/>
+
+		<label>How can we help you?</label> *<br/>
+		<textarea class="form-input-field" name="form[element2]" rows="8" cols="38"></textarea><br/><br/>
+
+		<div className ="contact-form-sheet" style={{display: "none"}}><div class="message-text">
+            <span style={{fontSize:"17px", fontWeight:"bold"}}/>
+        BeMo Academic Consulting Inc. <span> <br/>
+        <span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Toll Free</u></span>
+        <span style= {{fontSize:"13px"}}>: </span><span style={{fontSize:"14px"}}>
+            1-855-900-BeMo (2366)</span><span style={{fontSize:"13px"}}><br /></span>
+            <span style={{fontSize:"13px", fontWeight:"bold"}}><u>Email</u></span>
+            <span style={{fontSize:"13px"}}>: </span>
+            <span style={{fontSize:"13px"}}>info@bemoacademicconsulting.com</span></span></span>
+            
             </div>
-        <div className="form-container"
-                    style={{width: "90vw", 
-                    display: "flex", 
-                    justifyContent: "center", 
-                    paddingTop: "1vh"}}>
 
-
-         
-
-        <form id="fs-frm" 
-              name="simple-contact-form" 
-              accept-charset="utf-8" 
-              action="https://formspree.io/xdodpqwb" 
-              method="post">
-
-            <fieldset id="fs-frm-inputs">
-                <label for="full-name"><h2>NAME:</h2></label>
-                <input type="text" 
-                       name="name" 
-                       id="full-name"
-                       placeholder="" 
-                       required=""/>
-
-                    <label for="email-address"><h2>EMAIL ADDRESS</h2></label>
-
-                    
-                    <input type="email" name="_replyto" id="email-address" placeholder=" " required=""/>
-                        <label for="message"><h2>HOW CAN WE HELP YOU?</h2></label>
-                        <textarea rows="8" name="message" id="message" placeholder=" " required=""></textarea>
-                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
-        </fieldset>
-                        <input type="submit" value="Submit" style={{backgroundColor: "grey", color: "#000066"}}/>
-                        <input type="reset" value="Reset" style={{backgroundColor: "grey", color: "#000066"}}/>
-        </form>
-        </div>
-       
-       
-       
-       
-    </div>
-    </div>
-
-
+			<label>Spam Protection: Please don't fill this in:</label>
+			<textarea name="comment" rows="1" cols="1"></textarea>
+		</div>
+		<input type="hidden" name="form_token" value="16632360165eab2342c5651" />
+		<input class="form-input-button" type="reset" name="resetButton" value="Reset" />
+		<input class="form-input-button" type="submit" name="submitButton" value="Submit" />
+	
+</form>
+</div>
+</div> 
 
     )
 }

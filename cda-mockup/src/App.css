@@ -24,6 +24,12 @@ margin-top: 4rem;
     justify-content: space-between; 
 
 }
+.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
 
 
 
@@ -79,7 +85,6 @@ padding: 30rem;
     justify-content: space-around;
 }
 
-
 h1 {
 font-family: Arial, Helvetica, sans-serif;
 color: white;
@@ -109,6 +114,12 @@ h5 {
     font: normal 19px Arial, Helvetica, Geneva, sans-serif;
     font-weight: 200;
 }
+
+h6 {    
+    font: normal 16px/24px Arial, Helvetica, Geneva, sans-serif;
+    letter-spacing: 5px;
+    -webkit-font-smoothing: antialiased;}
+
 p {
 font: 16px Arial, Verdana, Helvetica, sans-serif;
 }

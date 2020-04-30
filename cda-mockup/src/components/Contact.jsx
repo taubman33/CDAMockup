@@ -12,61 +12,56 @@ export default function Contact () {
 
 
 
-       <div className="contact-text" style={{marginLeft:"3rem"}}>
-       
-        <h2>BeMo Academic Consulting Inc.</h2>
-
-       <h6><b><u>Toll Free:</u></b> 1-855-900-BeMo (2366)
-      
-       <br />
-
-       
-       <b><u>Email: </u></b>info@bemoacademicconsulting.com
-       <br />
-       </h6> 
-       </div>
 
 
-    <div className="contact-form">
-       <form action="./contact-us_files/mailer.php" method="post" enctype="multipart/form-data">
-	   <div class="message-text"><span style={{fontSize:"17px", fontWeight:"bold"}}>BeMo Academic Consulting Inc. </span>
-       <br />
-       <span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Toll Free</u></span><span style={{fonSize:"13px"}}>: 
-       </span><span style={{fontSize:"14px"}}>1-855-900-BeMo (2366)</span><span style={{fontSize:"13px"}}><br/>
-       </span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Email</u></span><span style={{fontSize:"13px"}}>: </span>
-       <span style={{fontSize:"14px"}}>info@bemoacademicconsulting.com</span></span></div>
-		<label>Name:</label> *
-        <br />
-		<input class="form-input-field" type="text" value="" name="form[element0]" size="40"/><br/><br/>
+    <div className="contact-form" >
 
-		<label>Email Address:</label> *<br/>
-		<input class="form-input-field" type="text" value="" name="form[element1]" size="40"/><br/><br/>
-
-		<label>How can we help you?</label> *<br/>
-		<textarea class="form-input-field" name="form[element2]" rows="8" cols="38"></textarea><br/><br/>
-
-		<div className ="contact-form-sheet" style={{display: "none"}}><div class="message-text">
-            <span style={{fontSize:"17px", fontWeight:"bold"}}/>
-        BeMo Academic Consulting Inc. <span> <br/>
-        <span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Toll Free</u></span>
-        <span style= {{fontSize:"13px"}}>: </span><span style={{fontSize:"14px"}}>
-            1-855-900-BeMo (2366)</span><span style={{fontSize:"13px"}}><br /></span>
-            <span style={{fontSize:"13px", fontWeight:"bold"}}><u>Email</u></span>
-            <span style={{fontSize:"13px"}}>: </span>
-            <span style={{fontSize:"13px"}}>info@bemoacademicconsulting.com</span></span></span>
+            <div className="contact-info" style={{marginLeft:"3rem", letterSpacing:"2px"}}>
+            <form action="./contact-us_files/mailer.php" method="post" enctype="multipart/form-data">
+                <div class="message-text"><span style={{fontSize:"17px", fontWeight:"bold"}}>
+                BeMo Academic Consulting Inc. </span>
+                <br /> <br />
+                 <span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Toll Free</u></span><span style={{fonSize:"13px"}}>: 
             
+                </span><span style={{fontSize:"14px"}}>1-855-900-BeMo (2366)</span><span style={{fontSize:"13px"}}><br/>
+                <br />
+                </span><span style={{fontSize:"13px", fontWeight:"bold"}}><u>Email</u></span><span style={{fontSize:"13px"}}>: </span>
+            
+                <span style={{fontSize:"14px"}}>info@bemoacademicconsulting.com</span></span>
             </div>
+   
 
-			<label>Spam Protection: Please don't fill this in:</label>
-			<textarea name="comment" rows="1" cols="1"></textarea>
+        <div className="form" style={{textAlign:"center", marginTop:"4rem"}}>
+		<label>NAME:</label> *
+        <br />
+		<input class="form-input-field" type="text" value="" name="form[element0]" size="40" style={{backgroundColor:"#CBCBCB"}}/><br/><br/>
+
+		<label>EMAIL ADDRESS:</label> *<br/>
+		<input class="form-input-field" type="text" value="" name="form[element1]" size="40" style={{backgroundColor:"#CBCBCB"}}/><br/><br/>
+
+		<label>HOW CAN WE HELP YOU?</label> *<br/>
+		<textarea class="form-input-field" name="form[element2]" rows="8" cols="38" style={{backgroundColor:"#CBCBCB"}}></textarea><br/><br/>
+       <div className="buttons">
+        <input type="reset" value="RESET" style={{backgroundColor: "grey", color: "#000066", padding:"15px"}}/>
+        <input type="submit" value="SUBMIT" style={{backgroundColor: "grey", color: "#000066", padding:"15px"}}/>
+        </div>
+            <br/>
+
+        <span style={{fontSize:"13px", fontWeight:"bold"}}><u>Note</u></span><span style={{fonSize:"13px"}}>:</span>
+                
+                <span style={{fontSize:"14px", marginBottom:"4rem"}}>If you are having difficulties with our contact us form above, 
+        send us an email to info@bemoacademicconsulting.com (copy & paste the email address)</span>
+                <br /><br /> <br />
+
 		</div>
-		<input type="hidden" name="form_token" value="16632360165eab2342c5651" />
-		<input class="form-input-button" type="reset" name="resetButton" value="Reset" />
-		<input class="form-input-button" type="submit" name="submitButton" value="Submit" />
+
+
 	
 </form>
+
 </div>
 </div> 
+</div>
 
     )
 }

@@ -8,6 +8,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+
+
 .contact-image {
 text-align: center;
 margin-top: 4rem;
@@ -24,14 +34,21 @@ margin-top: 4rem;
     justify-content: space-between; 
 
 }
+.form-input-field {
+margin-top: 7px;
+padding: 9px;
+outline: none;
+border: none;
+width: 70%;
+height: 100%
+}
+
 .hamburger {
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
   }
-
-
 
 .header-container {
     position: fixed;
@@ -43,20 +60,15 @@ margin-top: 4rem;
     padding-bottom: 1rem
 }
 
-
 .Header {
     display: flex;
     flex-direction: inline;
     justify-content: space-between;
     }
-
-
 .header-box {
     margin-top: 1em;
     width: 90%;
 }
-
-
 .link-container{
 display: flex;
 flex-direction: row;
@@ -84,6 +96,8 @@ padding: 30rem;
     flex-direction: row;
     justify-content: space-around;
 }
+
+/* fonts */
 
 h1 {
 font-family: Arial, Helvetica, sans-serif;

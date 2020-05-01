@@ -94,6 +94,8 @@ background-image: url('./components/assets/cda-interview-guide.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 padding: 30rem;
+display: flex;
+flex-direction: column;
 }
 
 .social {
@@ -107,7 +109,7 @@ padding: 30rem;
 h1 {
 font-family: Arial, Helvetica, sans-serif;
 color: white;
-font-size: 56px;
+font-size: 48px;
 font-weight: 200;
 letter-spacing: 1rem;
 }
@@ -164,19 +166,35 @@ ul {
     width: 8%
 }
 
+.Links h4 {
+font-size: 10px;
+
+}
+
+.pictureText-Text h1 {
+  font-size: 20px;  
+}
+
 .social {
-    float: none;
+    float: left;
     text-align: left;
     padding-bottom: 10px;
 }
+
+
 
 }
 
 
 @media only screen and (max-width: 767px) {
     .social {
-        float: none;
+        float: Left;
         text-align: left;
         padding-bottom: 10px;
     }
+
+    .pictureText-Text h1 {
+        font-size: 18px;  
+      }
+
 }

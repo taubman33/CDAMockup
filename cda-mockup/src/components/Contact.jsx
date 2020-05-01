@@ -16,7 +16,7 @@ export default function Contact () {
 
     <div className="contact-form" >
 
-            <div className="contact-info" style={{marginLeft:"3rem", letterSpacing:"2px"}}>
+            <div className="contact-info" style={{marginLeft:"2rem", letterSpacing:"2px"}}>
             <form action="./contact-us_files/mailer.php" method="post" enctype="multipart/form-data">
                 <div class="message-text"><span style={{fontSize:"17px", fontWeight:"bold"}}>
                 BeMo Academic Consulting Inc. </span>
@@ -49,7 +49,7 @@ export default function Contact () {
 
         <span style={{fontSize:"13px", fontWeight:"bold"}}><u>Note</u></span><span style={{fonSize:"13px"}}>:</span>
                 
-                <span style={{fontSize:"14px", marginBottom:"4rem"}}>If you are having difficulties with our contact us form above, 
+                <span style={{fontSize:"14px", marginBottom:"10rem"}}>If you are having difficulties with our contact us form above, 
         send us an email to info@bemoacademicconsulting.com (copy & paste the email address)</span>
                 <br /><br /> <br />
 

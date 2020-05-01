@@ -17,7 +17,6 @@ body {
 }
 
 
-
 .contact-image {
 text-align: center;
 margin-top: 4rem;
@@ -65,15 +64,21 @@ height: 100%
     flex-direction: inline;
     justify-content: space-between;
     }
+
 .header-box {
     margin-top: 1em;
     width: 90%;
 }
+
 .link-container{
 display: flex;
 flex-direction: row;
 justify-content: space-around
 }
+
+.Links:hover {
+    text-decoration: underline;
+} 
 
 
 .Links {
@@ -148,6 +153,23 @@ ul {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         padding-inline-start: 40px;
+}
+
+
+@media only screen and (max-width: 960px) {
+.App {
+    text-align: center;
+}
+.Header {
+    width: 8%
+}
+
+.social {
+    float: none;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
 }
 
 
